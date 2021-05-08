@@ -1,0 +1,53 @@
+<h1>Dragon Ball Z</h1>
+
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes>
+
+        </app-personajes>
+        <!-- <h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let personaje of personajes; let i = index">
+                {{ i + 1 }} - {{ personaje.nombre }} - {{ personaje.poder | number }} // Pipe indica que debe graficarse como un número
+            </li>
+        </ul> -->
+    </div>
+
+    <div class="col">
+        <app-nuevo
+        [nuevo]="nuevo"
+        ></app-nuevo>
+    </div>
+</div>
+
+
+<!-- <h1>Dragon Ball Z</h1>
+
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes [personajes]="personajes">
+
+        </app-personajes> -->
+        <!-- <h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let personaje of personajes; let i = index">
+                {{ i + 1 }} - {{ personaje.nombre }} - {{ personaje.poder | number }} // Pipe indica que debe graficarse como un número
+            </li>
+        </ul> -->
+    <!-- </div>
+
+    <div class="col">
+        <app-nuevo
+        [nuevo]="nuevo"
+        (onNuevoPersonaje) = "agregarNuevoPersonaje( $event )"
+        ></app-nuevo>
+    </div>
+</div> -->
+
+
